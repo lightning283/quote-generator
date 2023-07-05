@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: "Poppins";
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+#card {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 50px;
+}
+#quote {
+    position: relative;
+    top: 30%;
+    padding: 10px 10px;
+}
+
+#quote-btn {
+    position: relative;
+    bottom: -140px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 16px 0px 16px 0px;
+}
+
+#quote-btn:hover {
+    transition: 300ms ease-in-out;
+    color: black;
+    background-color: white;
+    border-radius: 16px;
+
+    font-size: 18px;
+}
+
+#quote2 {
+    position: absolute;
+    left: 10px;
+}
+
+#quote1 {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    #card {
+        top: 200px;
+    }
+    #quote {
+        top: 23%;
+    }
+  }
